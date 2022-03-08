@@ -118,6 +118,80 @@
 
 /***********-HEADER 1 END-***********/
 /***********-CARDS START-***********/
+#dashboard .container .row {
+  margin-top: 70px;
+  margin-left: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#dashboard .container .row h3 {
+  color: rgba(70, 66, 66, 0.658);
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+#dashboard .container .row .cards {
+  -webkit-box-shadow: 0px 0px 10px 5px rgba(51, 48, 48, 0.13);
+          box-shadow: 0px 0px 10px 5px rgba(51, 48, 48, 0.13);
+  border-radius: 7px;
+  text-align: center;
+  width: 280px;
+  height: 100%;
+}
+
+#dashboard .container .row .cards h3 {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #1e398f;
+}
+
+#dashboard .container .row .cards .list {
+  list-style: none;
+  margin-left: -33px;
+  margin-top: -29px;
+}
+
+#dashboard .container .row .cards .list a {
+  text-decoration: none;
+  color: black;
+}
+
+#dashboard .container .row .cards .list a li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(51, 48, 48, 0.13);
+}
+
+#dashboard .container .row .cards .list a li:hover {
+  background-color: rgba(51, 48, 48, 0.13);
+}
+
+#dashboard .container .row .cards .text {
+  padding-bottom: 3px;
+}
+
+#dashboard .container .row .cards .text a {
+  color: #1e398f;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#cards {
+  padding-bottom: 150px;
+}
+
+#cards .container .row {
+  margin-top: 70px;
+}
+
 #cards .container .row .card-list {
   margin-top: 40px;
 }
@@ -128,6 +202,7 @@
 
 #cards .container .row .card-list .card {
   border-radius: 50px;
+  border: none;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -150,9 +225,17 @@
 }
 
 #cards .container .row .card-list .card:hover {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
   -webkit-box-shadow: 0px 0px 10px 5px rgba(51, 48, 48, 0.13);
           box-shadow: 0px 0px 10px 5px rgba(51, 48, 48, 0.13);
 }
 
 /***********-CARDS END-***********/
+/***********- START-***********/
+#footer {
+  background-color: #1e398f;
+}
+
+/***********- END-***********/
 /*# sourceMappingURL=import.css.map */
