@@ -593,17 +593,17 @@ html ::-webkit-scrollbar-thumb {
 /***********-HEADER 1 END-***********/
 /***********-PROFILE START-***********/
 #edit-profile {
-  margin-top: 70px;
+  margin-top: 35px;
 }
 
 #edit-profile .container .row h3 {
   font-size: 30px;
   color: rgba(70, 66, 66, 0.658);
-  margin-bottom: 70px;
+  margin-bottom: 30px;
 }
 
 #edit-profile .container .row .cards {
-  margin-top: 80px;
+  margin-top: 70px;
   width: 800px;
   padding-right: 5px !important;
   -webkit-box-shadow: 0px 8px 16px 0px rgba(51, 48, 48, 0.13);
@@ -613,7 +613,7 @@ html ::-webkit-scrollbar-thumb {
 }
 
 #edit-profile .container .row .cards .col-4 {
-  margin-top: 65px;
+  margin-top: 70px;
 }
 
 #edit-profile .container .row .cards .col-4 i {
@@ -654,6 +654,10 @@ html ::-webkit-scrollbar-thumb {
   margin-left: 50px;
 }
 
+#edit-profile .container .row .cards .col-7 input {
+  margin-top: 3px;
+}
+
 #edit-profile .container .row .cards .col-7 .input {
   width: 200px;
   margin: 20px;
@@ -666,6 +670,8 @@ html ::-webkit-scrollbar-thumb {
 }
 
 #edit-profile .container .row .cards .col-7 button {
+  border: none;
+  border: 1px solid #1e398f;
   margin-top: 10px;
   margin-left: 90px;
 }
