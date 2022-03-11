@@ -30,6 +30,25 @@
   color: white;
 }
 
+#card-main-size, #cards .container .row .card-list .card {
+  width: 180px;
+  height: 180px;
+}
+
+#card-logo, #cards .container .row .card-list .checkIn img, #cards .container .row .card-list .exam img, #cards .container .row .card-list .exam-result img, #cards .container .row .card-list .course img, #cards .container .row .card-list .homework img, #cards .container .row .card-list .hw-result img, #cards .container .row .card-list .certificate img, #cards .container .row .card-list .resources img, #cards .container .row .card-list .speaking img, #cards .container .row .card-list .sp-review img, #cards .container .row .card-list .essay img, #cards .container .row .card-list .es-review img {
+  width: 100px;
+  height: 100px;
+}
+
+#card-center, #cards .container .row .card-list .checkIn img, #cards .container .row .card-list .exam img, #cards .container .row .card-list .exam-result img, #cards .container .row .card-list .course img, #cards .container .row .card-list .homework img, #cards .container .row .card-list .hw-result img, #cards .container .row .card-list .certificate img, #cards .container .row .card-list .resources img, #cards .container .row .card-list .speaking img, #cards .container .row .card-list .sp-review img, #cards .container .row .card-list .listening img, #cards .container .row .card-list .essay img, #cards .container .row .card-list .es-review img {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
 @media only screen and (max-width: 992px) {
   .menu-box-middle .search-and-icons .search-input {
     width: 220px !important;
@@ -265,26 +284,18 @@ html ::-webkit-scrollbar-thumb {
 }
 
 #cards .container .row .card-list .card {
-  border-radius: 50px;
   border: none;
+  border-radius: 50px;
+  color: #1e398f;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #1e398f;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 20px;
-}
-
-#cards .container .row .card-list .card i {
-  margin-top: 20px;
-  font-size: 50px;
 }
 
 #cards .container .row .card-list .card .card-body .card-text {
+  margin-top: 135px;
   font-size: small;
   font-weight: bold;
-  margin-top: 15px;
   white-space: nowrap;
 }
 
@@ -295,13 +306,50 @@ html ::-webkit-scrollbar-thumb {
           box-shadow: 0px 0px 10px 5px rgba(51, 48, 48, 0.13);
 }
 
-/***********-CARDS END-***********/
-/***********- START-***********/
-#footer {
-  background-color: #1e398f;
+#cards .container .row .card-list .exam img {
+  width: 115px;
 }
 
-/***********- END-***********/
+#cards .container .row .card-list .exam-result img {
+  top: 41%;
+}
+
+#cards .container .row .card-list .homework img {
+  width: 103px;
+}
+
+#cards .container .row .card-list .certificate img {
+  width: 107px;
+}
+
+#cards .container .row .card-list .resources img {
+  top: 37%;
+}
+
+#cards .container .row .card-list .speaking img {
+  width: 103px;
+}
+
+#cards .container .row .card-list .sp-review img {
+  width: 102px;
+}
+
+#cards .container .row .card-list .listening img {
+  width: 120px;
+  height: 110px;
+  top: 39%;
+}
+
+#cards .container .row .card-list .essay img {
+  width: 110px;
+  height: 105px;
+}
+
+#cards .container .row .card-list .es-review img {
+  width: 105px;
+}
+
+/***********-CARDS END-***********/
 @media only screen and (max-width: 992px) {
   .menu-box-middle .search-and-icons .search-input {
     width: 220px !important;
