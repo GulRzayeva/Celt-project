@@ -1,6 +1,6 @@
 /* ----------- main color start ----------- */
 /* ----------- font-size start ----------- */
-#center, #login-page, #edit-profile .container .row .cards {
+#center, #login-page {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -9,7 +9,7 @@
           transform: translate(-50%, -50%);
 }
 
-#button, #login-page .btn-outline-primary, #edit-profile .container .row .cards .col-7 button {
+#button, #login-page .btn-outline-primary {
   width: 160px;
   padding-left: 10px;
   padding-right: 10px;
@@ -24,7 +24,7 @@
   letter-spacing: 1px;
 }
 
-#button:hover, #login-page .btn-outline-primary:hover, #edit-profile .container .row .cards .col-7 button:hover {
+#button:hover, #login-page .btn-outline-primary:hover {
   right: 0px;
   background: #1e398f;
   color: white;
@@ -640,88 +640,53 @@ html ::-webkit-scrollbar-thumb {
 
 /***********-HEADER 1 END-***********/
 /***********-PROFILE START-***********/
-#edit-profile {
-  margin-top: 35px;
+#edit-profile .form-control:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-color: #ee7100;
 }
 
-#edit-profile .container .row h3 {
+#edit-profile h6 {
   font-size: 30px;
-  color: rgba(70, 66, 66, 0.658);
-  margin-bottom: 30px;
-}
-
-#edit-profile .container .row .cards {
-  margin-top: 70px;
-  width: 800px;
-  padding-right: 5px !important;
-  -webkit-box-shadow: 0px 8px 16px 0px rgba(51, 48, 48, 0.13);
-          box-shadow: 0px 8px 16px 0px rgba(51, 48, 48, 0.13);
-  border-radius: 20px;
-  padding: 40px;
-}
-
-#edit-profile .container .row .cards .col-4 {
-  margin-top: 70px;
-}
-
-#edit-profile .container .row .cards .col-4 i {
-  margin-left: 35px;
-  color: rgba(70, 66, 66, 0.658);
-  background-color: rgba(158, 158, 158, 0.068);
-  font-size: 100px;
-  border: 1px solid rgba(70, 66, 66, 0.658);
-  padding: 50px;
-  padding-left: 55px;
-  padding-right: 55px;
-  border-radius: 50%;
-}
-
-#edit-profile .container .row .cards .col-4 .col-1 {
-  border-bottom: 1px solid #1e398f;
-  width: 250px;
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-bottom: 30px;
-  margin-top: 40px;
-}
-
-#edit-profile .container .row .cards .col-4 .text span {
-  white-space: nowrap;
-  color: #1e398f;
   font-weight: bold;
-  margin-left: 33px;
-  font-size: 25px;
+  color: rgba(70, 66, 66, 0.658);
 }
 
-#edit-profile .container .row .cards .col-1 {
-  width: 60px;
-  border-right: 1px solid #1e398f;
+#edit-profile .profile-button {
+  margin-top: 35px;
+  padding: 15px;
+  border-radius: 40px;
+  background: #ee7100;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-left: 50%;
+  color: #ee7100;
+  background: none;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border: 1px solid #ee7100;
 }
 
-#edit-profile .container .row .cards .col-7 {
-  margin-left: 50px;
+#edit-profile .profile-button:hover {
+  background: #ee7100;
+  color: white;
 }
 
-#edit-profile .container .row .cards .col-7 input {
-  margin-top: 3px;
+#edit-profile .profile-button:focus {
+  background: #ee7100;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
-#edit-profile .container .row .cards .col-7 .input {
-  width: 200px;
-  margin: 20px;
-  margin-left: 75px;
+#edit-profile .profile-button:active {
+  background: #ee7100;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
-#edit-profile .container .row .cards .col-7 .input span {
-  font-weight: bold;
-  font-size: 18px;
-}
-
-#edit-profile .container .row .cards .col-7 button {
-  border: none;
-  border: 1px solid #1e398f;
-  margin-top: 10px;
-  margin-left: 90px;
+#edit-profile .back:hover {
+  color: #ee7100;
+  cursor: pointer;
 }
 
 /***********-PROFILE END-***********/
